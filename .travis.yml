@@ -7,7 +7,4 @@ env:
 before_install:
   -     - bash _scripts/install.sh
 script:
-  - bash _scripts/build.sh
   - bash _scripts/test.sh
-after_success:
-  - bash _scripts/deploy.sh
