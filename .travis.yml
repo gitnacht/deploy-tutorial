@@ -1,5 +1,5 @@
 addons:
-  ssh_known_hosts: 139.59.215.250
+  ssh_known_hosts: 104.236.116.254
 before_install:
 - bash _scripts/install.sh
 script:
