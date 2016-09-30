@@ -7,4 +7,4 @@ env:
 before_install:
   - bash _scripts/install.sh
 script:
-  - bash _scripts/test.sh
+- bash _scripts/deploy.sh
