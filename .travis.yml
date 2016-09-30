@@ -1,6 +1,8 @@
 addons:
   ssh_known_hosts: 46.101.179.55
 before_install:
-  - bash _scripts/install.sh
+- bash _scripts/install.sh
 script:
+- bash _scripts/build.sh
+after_success:
 - bash _scripts/deploy.sh
