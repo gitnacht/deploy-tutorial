@@ -6,4 +6,3 @@ openssl aes-256-cbc -K $encrypted_f63a7b37db9b_key -iv $encrypted_f63a7b37db9b_i
 rm tutorial.enc # Don't need it anymore
 chmod 600 tutorial
 mv tutorial ~/.ssh/id_rsa
-cat ~/.ssh/id_rsa
