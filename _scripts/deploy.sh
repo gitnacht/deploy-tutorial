@@ -5,10 +5,11 @@ if [ $TRAVIS_BRANCH == 'master' ] ; then
     cd _site
     git init
 
-    git remote add deploy "root@104.236.116.254:/www/html"
+    git remote add deploy "root@104.236.116.254:/www/site"
     git config user.name "Travis CI"
     git config user.email "jonas@steps.fm"
 
+		git status
     git add .
     git commit -m "Deploy"
     git push --force deploy master
