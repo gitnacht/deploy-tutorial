@@ -7,7 +7,7 @@ function init {
 	mkdir _site
 	cd _site
 	git init
-	git remote add deploy "deploy@46.101.179.55:/www/html"
+	git remote add deploy "deploy@139.59.215.250:/www/html"
 	git config user.name "Travis CI"
 	git config user.email "jonas@steps.fm"
 	echo "Fetching from remote"
