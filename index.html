@@ -6,6 +6,7 @@ layout: list
 
 <div class="container">
 
+{% include /ad-top.html %}
 
   {% for post in paginator.posts %}
       <!-- CHAT CONTAINER /w Image -->
@@ -19,6 +20,7 @@ layout: list
         <!-- /CHAT CONTAINER /w Image -->
   {% endfor %}
 
+  {% include /ad-bottom.html %}
 
   <div class="load-more">
     <a href="{{ site.baseurl }}{{ paginator.next_page_path }}">
