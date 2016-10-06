@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+  <title>Chat Happens</title>
+  <link>http://127.0.0.1:4000</link>
+  <description>Send us your craziest, funniest chats.</description>
+  <lastBuildDate>Thu, 06 Oct 2016 17:26:52 +0200</lastBuildDate>
+  
+  <item>
+    <title>New Chats</title>
+    <link>http://127.0.0.1:4000/fr/lists/08/</link>
+    <guid>09</guid>
+    <pubDate>Wed, 05 Oct 2016 21:28:50 +0200</pubDate>
+    <content:encoded>
+      <![CDATA[
+        <!doctype html>
+        <head>
+            <meta charset="utf-8">
+            <link rel="canonical" href="http://127.0.0.1:4000/fr/lists/08/">
+            <meta property="op:markup_version" content="v1.0">
+            <title>The 7 best chats of thursday</title>
+            <meta property="fb:article_style" content="MVP">
+            <link rel="stylesheet" title="MVP" href="#">
+            <meta property="fb:use_automatic_ad_placement" content="false">
+          </head>
+          <body>
+            <article>
+              <header>
+                <!— Article header goes here -->
+                <figure>
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/c_crop,g_north,h_335,q_100,w_640,x_0,y_0/v1474487956/fr/screenshots/08.jpg" />
+                </figure>
+
+                <!-- kicker -->
+                <h3 class="op-kicker">
+                  These chats are crazy:
+                </h3>
+
+                <!-- title -->
+                <h1>The 7 best chats of today</h1>
+
+              </header>
+              <!— Article body goes here -->
+              <p>Our new Instant Articles open on mobile devices really quickly.</p>
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+              <span>http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/08.jpg</span>
+              <figcaption class="op-extra-large">
+                <h1 class="op-small">Chat 57</h1>
+                  This description uses extra-large text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </figcaption>
+              </figure>
+              <figure class="op-ad">
+                <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=170487586729801_170528110059082&adtype=banner300x250"></iframe>
+              </figure>
+              <footer>
+                <!— Article footer goes here -->
+              </footer>
+            </article>
+          </body>
+         ]]>
+    </content:encoded>
+  </item>
+  
+  <item>
+    <title>New Chats</title>
+    <link>http://127.0.0.1:4000/fr/lists/07/</link>
+    <guid>09</guid>
+    <pubDate>Wed, 05 Oct 2016 21:28:50 +0200</pubDate>
+    <content:encoded>
+      <![CDATA[
+        <!doctype html>
+        <head>
+            <meta charset="utf-8">
+            <link rel="canonical" href="http://127.0.0.1:4000/fr/lists/07/">
+            <meta property="op:markup_version" content="v1.0">
+            <title>The 7 best chats of thursday</title>
+            <meta property="fb:article_style" content="MVP">
+            <link rel="stylesheet" title="MVP" href="#">
+            <meta property="fb:use_automatic_ad_placement" content="false">
+          </head>
+          <body>
+            <article>
+              <header>
+                <!— Article header goes here -->
+                <figure>
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/c_crop,g_north,h_335,q_100,w_640,x_0,y_0/v1474487956/fr/screenshots/07.jpg" />
+                </figure>
+
+                <!-- kicker -->
+                <h3 class="op-kicker">
+                  These chats are crazy:
+                </h3>
+
+                <!-- title -->
+                <h1>The 7 best chats of today</h1>
+
+              </header>
+              <!— Article body goes here -->
+              <p>Our new Instant Articles open on mobile devices really quickly.</p>
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+              <span>http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/07.jpg</span>
+              <figcaption class="op-extra-large">
+                <h1 class="op-small">Chat 57</h1>
+                  This description uses extra-large text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </figcaption>
+              </figure>
+              <figure class="op-ad">
+                <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=170487586729801_170528110059082&adtype=banner300x250"></iframe>
+              </figure>
+              <footer>
+                <!— Article footer goes here -->
+              </footer>
+            </article>
+          </body>
+         ]]>
+    </content:encoded>
+  </item>
+  
+  </channel>
+</rss>
