@@ -1,0 +1,13 @@
+<!-- Pagination Links Start -->
+
+
+
+{% if paginator.next_page %}
+  <div class="load-more">
+          <a href="{{site.baseurl}}{{paginator.next_page_path}}">
+            <button class="btn btn-lg btn-primary"><span class="emoji emoji-laughing"></span>Load more chats</button>
+          </a>
+  </div>
+{% endif %}
+
+<!-- Pagination Links End -->

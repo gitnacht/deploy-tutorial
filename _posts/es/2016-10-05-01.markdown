@@ -1,0 +1,10 @@
+---
+layout: post-es
+title:  "New Chats"
+date:   2016-10-05 21:28:50 +0200
+lang: es
+categories: es
+og-image: http://res.cloudinary.com/gutenacht/image/upload/c_crop,g_north,h_335,q_100,w_640,x_0,y_0/v1474487956/es/screenshots/01.jpg
+screenshot: http://res.cloudinary.com/gutenacht/image/upload/v1474487956/es/screenshots/01.jpg
+
+---

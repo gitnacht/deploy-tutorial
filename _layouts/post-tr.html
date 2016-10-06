@@ -1,0 +1,59 @@
+---
+layout: list
+---
+
+{% assign post = page %}
+
+<div class="container">
+
+    {% include /ad-top.html %}
+
+    <!-- CHAT CONTAINER /w Image -->
+      <div class="chat-container mb-small">
+          <div class="chat-container-content">
+              <div class="chat-container-image">
+                  <span><img src="{{ post.screenshot }}"></span>
+              </div>
+          </div>
+      </div>
+      <!-- /CHAT CONTAINER /w Image -->
+
+      {% for post in site.categories.tr limit:2%}
+          <!-- CHAT CONTAINER /w Image -->
+            <div class="chat-container mb-small">
+                <div class="chat-container-content">
+                    <div class="chat-container-image">
+                        <span><img src="{{ post.screenshot }}"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- /CHAT CONTAINER /w Image -->
+      {% endfor %}
+
+    {% include /ad-middle.html %}
+
+    {% for post in site.categories.tr limit:4 offset:2 %}
+        <!-- CHAT CONTAINER /w Image -->
+          <div class="chat-container mb-small">
+              <div class="chat-container-content">
+                  <div class="chat-container-image">
+                      <span><img src="{{ post.screenshot }}"></span>
+                  </div>
+              </div>
+          </div>
+          <!-- /CHAT CONTAINER /w Image -->
+    {% endfor %}
+
+    {% include /ad-bottom.html %}
+
+    <div class="load-more">
+      <a href="{{ site.baseurl }}/tr/2">
+        <button class="btn btn-lg btn-primary"><span class="emoji emoji-laughing"></span>Load more chats</button>
+      </a>
+    </div>
+
+    <div class="fixed-read-more">
+      <span>more chats</span>
+    </div>
+
+</div>
