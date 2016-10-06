@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-ruby-install --binary -M https://rubies.travis-ci.org/ ruby 2.1.1
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -14,7 +13,6 @@ ruby-install --binary -M https://rubies.travis-ci.org/ ruby 2.1.1
 gem "jekyll", "3.2.1"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima"
 gem 'iki'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

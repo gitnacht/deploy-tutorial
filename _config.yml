@@ -17,7 +17,7 @@ title: Chat Happens
 email: your-email@domain.com
 description: Send us your craziest, funniest chats.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "http://104.236.116.254:4000" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
