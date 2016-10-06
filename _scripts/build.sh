@@ -18,6 +18,7 @@ function init {
 
 function build {
 	echo "Building..."
+	bundle exec jekyll build
 	echo "Committing the build"
 	cd _site
 	git add .
