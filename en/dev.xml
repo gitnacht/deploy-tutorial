@@ -34,7 +34,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             <header>
               <!— Article header goes here -->
               <figure>
-                <img src="{{ post.og-image }}" />
+                <img src="{{ site.cloudinarycropurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
               </figure>
               <!-- kicker -->
               <h3 class="op-kicker">
