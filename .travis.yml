@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - 2.3.1
 addons:
-  ssh_known_hosts: 104.236.116.254
+  ssh_known_hosts: 159.203.82.27
 before_install:
 - bash _scripts/install.sh
 script:
