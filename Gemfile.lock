@@ -42,8 +42,7 @@ PLATFORMS
 DEPENDENCIES
   iki
   jekyll (= 3.2.1)
-  jekyll-paginate (~> 1.0)
-  jekyll-paginate-category
+
 
 RUBY VERSION
    ruby 2.3.1
