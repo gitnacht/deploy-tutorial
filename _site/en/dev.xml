@@ -5,14 +5,14 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <title>Chat Happens</title>
   <link>http://chathappens.com</link>
   <description>Send us your craziest, funniest chats.</description>
-  <lastBuildDate>Tue, 11 Oct 2016 00:40:19 +0200</lastBuildDate>
+  <lastBuildDate>Tue, 11 Oct 2016 00:59:57 +0200</lastBuildDate>
   
   
   <item>
   <title>140</title>
-  <link>/en/chats/140/</link>
+  <link>http://chathappens.com/en/chats/140/</link>
   <guid>en-chats-140</guid>
-  <pubDate>Tue, 11 Oct 2016 00:40:19 +0200</pubDate>
+  <pubDate>Tue, 11 Oct 2016 00:59:57 +0200</pubDate>
   <content:encoded>
     <![CDATA[
       <!doctype html>
@@ -59,9 +59,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   
   <item>
   <title>139</title>
-  <link>/en/chats/139/</link>
+  <link>http://chathappens.com/en/chats/139/</link>
   <guid>en-chats-139</guid>
-  <pubDate>Tue, 11 Oct 2016 00:40:19 +0200</pubDate>
+  <pubDate>Tue, 11 Oct 2016 00:59:57 +0200</pubDate>
   <content:encoded>
     <![CDATA[
       <!doctype html>
@@ -108,9 +108,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   
   <item>
   <title>138</title>
-  <link>/en/chats/138/</link>
+  <link>http://chathappens.com/en/chats/138/</link>
   <guid>en-chats-138</guid>
-  <pubDate>Tue, 11 Oct 2016 00:40:19 +0200</pubDate>
+  <pubDate>Tue, 11 Oct 2016 00:59:57 +0200</pubDate>
   <content:encoded>
     <![CDATA[
       <!doctype html>
