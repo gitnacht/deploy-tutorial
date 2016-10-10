@@ -5,7 +5,155 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <title>Chat Happens</title>
   <link>http://chathappens.com</link>
   <description>Send us your craziest, funniest chats.</description>
-  <lastBuildDate>Tue, 11 Oct 2016 00:17:04 +0200</lastBuildDate>
+  <lastBuildDate>Tue, 11 Oct 2016 00:40:19 +0200</lastBuildDate>
+  
+  
+  <item>
+  <title>140</title>
+  <link>/en/chats/140/</link>
+  <guid>en-chats-140</guid>
+  <pubDate>Tue, 11 Oct 2016 00:40:19 +0200</pubDate>
+  <content:encoded>
+    <![CDATA[
+      <!doctype html>
+      <head>
+          <meta charset="utf-8">
+          <link rel="canonical" href="http://chathappens.com">
+          <meta property="op:markup_version" content="v1.0">
+          <title>The 7 best chats of thursday</title>
+          <meta property="fb:article_style" content="MVP">
+          <link rel="stylesheet" title="MVP" href="#">
+          <meta property="fb:use_automatic_ad_placement" content="false">
+        </head>
+        <body>
+          <article>
+            <header>
+              <!— Article header goes here -->
+              <figure>
+                <img src="" />
+              </figure>
+              <!-- kicker -->
+              <h3 class="op-kicker">
+                These chats are crazy:
+              </h3>
+              <!-- title -->
+              <h1>The 7 best chats of today</h1>
+            </header>
+            <!— Article body goes here -->
+            <p>Our new Instant Articles open on mobile devices really quickly.</p>
+            <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                <span>140</span>
+            </figure>
+            
+            <figure class="op-ad">
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=170487586729801_170528110059082&adtype=banner300x250"></iframe>
+            </figure>
+            <footer>
+              <!— Article footer goes here -->
+            </footer>
+          </article>
+        </body>
+       ]]>
+  </content:encoded>
+</item>
+  
+  <item>
+  <title>139</title>
+  <link>/en/chats/139/</link>
+  <guid>en-chats-139</guid>
+  <pubDate>Tue, 11 Oct 2016 00:40:19 +0200</pubDate>
+  <content:encoded>
+    <![CDATA[
+      <!doctype html>
+      <head>
+          <meta charset="utf-8">
+          <link rel="canonical" href="http://chathappens.com">
+          <meta property="op:markup_version" content="v1.0">
+          <title>The 7 best chats of thursday</title>
+          <meta property="fb:article_style" content="MVP">
+          <link rel="stylesheet" title="MVP" href="#">
+          <meta property="fb:use_automatic_ad_placement" content="false">
+        </head>
+        <body>
+          <article>
+            <header>
+              <!— Article header goes here -->
+              <figure>
+                <img src="" />
+              </figure>
+              <!-- kicker -->
+              <h3 class="op-kicker">
+                These chats are crazy:
+              </h3>
+              <!-- title -->
+              <h1>The 7 best chats of today</h1>
+            </header>
+            <!— Article body goes here -->
+            <p>Our new Instant Articles open on mobile devices really quickly.</p>
+            <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                <span>139</span>
+            </figure>
+            
+            <figure class="op-ad">
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=170487586729801_170528110059082&adtype=banner300x250"></iframe>
+            </figure>
+            <footer>
+              <!— Article footer goes here -->
+            </footer>
+          </article>
+        </body>
+       ]]>
+  </content:encoded>
+</item>
+  
+  <item>
+  <title>138</title>
+  <link>/en/chats/138/</link>
+  <guid>en-chats-138</guid>
+  <pubDate>Tue, 11 Oct 2016 00:40:19 +0200</pubDate>
+  <content:encoded>
+    <![CDATA[
+      <!doctype html>
+      <head>
+          <meta charset="utf-8">
+          <link rel="canonical" href="http://chathappens.com">
+          <meta property="op:markup_version" content="v1.0">
+          <title>The 7 best chats of thursday</title>
+          <meta property="fb:article_style" content="MVP">
+          <link rel="stylesheet" title="MVP" href="#">
+          <meta property="fb:use_automatic_ad_placement" content="false">
+        </head>
+        <body>
+          <article>
+            <header>
+              <!— Article header goes here -->
+              <figure>
+                <img src="" />
+              </figure>
+              <!-- kicker -->
+              <h3 class="op-kicker">
+                These chats are crazy:
+              </h3>
+              <!-- title -->
+              <h1>The 7 best chats of today</h1>
+            </header>
+            <!— Article body goes here -->
+            <p>Our new Instant Articles open on mobile devices really quickly.</p>
+            <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                <span>138</span>
+            </figure>
+            
+            <figure class="op-ad">
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=170487586729801_170528110059082&adtype=banner300x250"></iframe>
+            </figure>
+            <footer>
+              <!— Article footer goes here -->
+            </footer>
+          </article>
+        </body>
+       ]]>
+  </content:encoded>
+</item>
   
   </channel>
 </rss>
