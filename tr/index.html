@@ -1,0 +1,54 @@
+---
+layout: list-tr
+lang: tr
+---
+
+<div class="container">
+
+  {% include /ad-top.html %}
+
+  {% assign chatcount = site.data.chats-tr | size | minus: 3 %}
+
+  {% assign count = page.screenshot | minus:3 %}
+
+  {% for chat in site.data.chats-tr reversed limit:3 offset:chatcount %}
+  <!-- CHAT CONTAINER /w Image -->
+    <div class="chat-container mb-small">
+      <div class="chat-container-content">
+        <div class="chat-container-image">
+          <span><img src="{{ site.cloudinarybaseurl }}/{{ chat.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg"></span>
+        </div>
+      </div>
+    </div>
+  <!-- /CHAT CONTAINER /w Image -->
+  {% endfor %}
+
+  {% include /ad-middle.html %}
+
+  {% assign newcount = chatcount | minus:4 %}
+
+  {% for chat in site.data.chats-tr reversed limit:4 offset:newcount %}
+  <!-- CHAT CONTAINER /w Image -->
+    <div class="chat-container mb-small">
+      <div class="chat-container-content">
+        <div class="chat-container-image">
+          <span><img src="{{ site.cloudinarybaseurl }}/{{ chat.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg"></span>
+        </div>
+      </div>
+    </div>
+  <!-- /CHAT CONTAINER /w Image -->
+  {% endfor %}
+
+  {% include /ad-bottom.html %}
+
+  <div class="load-more">
+    <a href="{{ site.baseurl }}/{{ page.lang }}/chats/{{ newcount }}">
+      <button class="btn btn-lg btn-primary"><span class="emoji emoji-laughing"></span>Load more chats</button>
+    </a>
+  </div>
+
+  <div class="fixed-read-more">
+    <span>more chats</span>
+  </div>
+
+</div>

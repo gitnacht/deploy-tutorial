@@ -1,0 +1,63 @@
+---
+layout: list-fr
+---
+
+<div class="container">
+
+  {% include /ad-top.html %}
+
+  <!-- CHAT CONTAINER /w Image -->
+    <div class="chat-container mb-small">
+        <div class="chat-container-content">
+            <div class="chat-container-image">
+                <span><img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ page.screenshot | xml_escape }}.jpg"></span>
+            </div>
+        </div>
+    </div>
+  <!-- /CHAT CONTAINER /w Image -->
+
+  {% assign chats = site.data.chats-fr | size %}
+
+  {% assign count = page.screenshot | minus:3 %}
+
+  {% for chat in site.data.chats-fr reversed limit:2 offset:count %}
+  <!-- CHAT CONTAINER /w Image -->
+    <div class="chat-container mb-small">
+      <div class="chat-container-content">
+        <div class="chat-container-image">
+          <span><img src="{{ site.cloudinarybaseurl }}/{{ chat.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg"></span>
+        </div>
+      </div>
+    </div>
+  <!-- /CHAT CONTAINER /w Image -->
+  {% endfor %}
+
+  {% include /ad-middle.html %}
+
+  {% assign newcount = page.screenshot | minus:7 %}
+
+  {% for chat in site.data.chats-fr reversed limit:4 offset:newcount %}
+  <!-- CHAT CONTAINER /w Image -->
+    <div class="chat-container mb-small">
+      <div class="chat-container-content">
+        <div class="chat-container-image">
+          <span><img src="{{ site.cloudinarybaseurl }}/{{ chat.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg"></span>
+        </div>
+      </div>
+    </div>
+  <!-- /CHAT CONTAINER /w Image -->
+  {% endfor %}
+
+  {% include /ad-bottom.html %}
+
+  <div class="load-more">
+    <a href="{{ site.baseurl }}/{{ page.lang }}/chats/{{ page.screenshot | minus: 7 }}">
+      <button class="btn btn-lg btn-primary"><span class="emoji emoji-laughing"></span>Load more chats</button>
+    </a>
+  </div>
+
+  <div class="fixed-read-more">
+    <span>more chats</span>
+  </div>
+
+</div>
