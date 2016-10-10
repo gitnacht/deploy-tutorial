@@ -22,7 +22,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
       <!doctype html>
       <head>
           <meta charset="utf-8">
-          <link rel="canonical" href="{{ post.url | prepend: site.url }}">
+          <link rel="canonical" href="{{ site.url }}/{{ page.lang }}/chats/{{ chat.screenshot }}">
           <meta property="op:markup_version" content="v1.0">
           <title>The 7 best chats of thursday</title>
           <meta property="fb:article_style" content="MVP">
@@ -63,7 +63,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
         </body>
        ]]>
   </content:encoded>
-</item>
+  </item>
   {% endfor %}
   </channel>
 </rss>
