@@ -50,11 +50,15 @@ layout: list-es
 
   {% include /ad-bottom.html %}
 
-  <div class="load-more">
-    <a href="{{ site.baseurl }}/{{ page.lang }}/chats/{{ page.screenshot | minus: 7 }}">
-      <button class="btn btn-lg btn-primary"><span class="emoji emoji-laughing"></span>Load more chats</button>
-    </a>
-  </div>
+  {% assign more = page.screenshot | minus:1 %}
+
+  {% if more > 15 %}
+    <div class="load-more">
+      <a href="{{ site.baseurl }}/{{ page.lang }}/chats/{{ page.screenshot | minus: 7 }}">
+        <button class="btn btn-lg btn-primary"><span class="emoji emoji-laughing"></span>Load more chats</button>
+      </a>
+    </div>
+  {% endif %}
 
   <div class="fixed-read-more">
     <span>more chats</span>
