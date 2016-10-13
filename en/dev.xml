@@ -10,7 +10,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <link>{{ site.url }}</link>
   <description>{{ site.description | xml_escape }}</description>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-  {% assign chatcount = site.data.chats-en | size | minus: 3 %}
+  {% assign chatcount = site.data.chats-en | size | minus: 95 %}
   {% for chat in site.data.chats-en reversed limit:5 offset:chatcount %}
   <item>
   <title>{{ chat.screenshot | xml_escape }}</title>
@@ -31,6 +31,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
         </head>
         <body>
           <article>
+
             <header>
               <!— Article header goes here -->
               <figure>
@@ -48,7 +49,8 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
             </figure>
-            {% for chat in site.data.chats-en reversed limit:6 offset:chatcount %}
+            {% assign random = site.data.chats-en | sample:6 %}
+            {% for chat in random  %}
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                   <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
               </figure>
