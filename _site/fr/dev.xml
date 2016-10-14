@@ -5,14 +5,14 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <title>Chat Happens</title>
   <link>http://chathappens.com</link>
   <description>Send us your craziest, funniest chats.</description>
-  <lastBuildDate>Fri, 14 Oct 2016 02:25:35 +0200</lastBuildDate>
+  <lastBuildDate>Fri, 14 Oct 2016 02:30:31 +0200</lastBuildDate>
   
   
   <item>
   <title>50</title>
   <link>http://chathappens.com/fr/chats/50/</link>
   <guid>fr-chats-50</guid>
-  <pubDate>Fri, 14 Oct 2016 02:25:35 +0200</pubDate>
+  <pubDate>Fri, 14 Oct 2016 02:30:31 +0200</pubDate>
   <content:encoded>
     <![CDATA[
       <!doctype html>
@@ -27,7 +27,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
         </head>
         <body>
           <article>
-
             <header>
               <!— Article header goes here -->
               <figure>
@@ -48,27 +47,27 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/47.jpg" />
-              </figure>
-            
-              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                   <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/68.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/118.jpg" />
-              </figure>
-            
-              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/14.jpg" />
-              </figure>
-            
-              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/64.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/5.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                   <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/83.jpg" />
+              </figure>
+            
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/132.jpg" />
+              </figure>
+            
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/122.jpg" />
+              </figure>
+            
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/86.jpg" />
               </figure>
             
             <figure class="op-ad">
@@ -82,6 +81,21 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               <!-- Copyright details for your article -->
                 <small>© Chat Happens</small>
             </footer>
+            <figure class="op-tracker">
+              <iframe>
+                  <!-- Include full analytics code here -->
+                    <script>
+                		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                		  ga('create', 'UA-10230498-7', 'auto');
+                		  ga('send', 'pageview');
+
+          		      </script>
+              </iframe>
+            </figure>
           </article>
         </body>
        ]]>
@@ -92,7 +106,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <title>49</title>
   <link>http://chathappens.com/fr/chats/49/</link>
   <guid>fr-chats-49</guid>
-  <pubDate>Fri, 14 Oct 2016 02:25:35 +0200</pubDate>
+  <pubDate>Fri, 14 Oct 2016 02:30:31 +0200</pubDate>
   <content:encoded>
     <![CDATA[
       <!doctype html>
@@ -107,7 +121,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
         </head>
         <body>
           <article>
-
             <header>
               <!— Article header goes here -->
               <figure>
@@ -128,15 +141,11 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/78.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/118.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/25.jpg" />
-              </figure>
-            
-              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/109.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/77.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
@@ -144,11 +153,15 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/66.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/55.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/67.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/90.jpg" />
+              </figure>
+            
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/87.jpg" />
               </figure>
             
             <figure class="op-ad">
@@ -162,6 +175,21 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               <!-- Copyright details for your article -->
                 <small>© Chat Happens</small>
             </footer>
+            <figure class="op-tracker">
+              <iframe>
+                  <!-- Include full analytics code here -->
+                    <script>
+                		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                		  ga('create', 'UA-10230498-7', 'auto');
+                		  ga('send', 'pageview');
+
+          		      </script>
+              </iframe>
+            </figure>
           </article>
         </body>
        ]]>
@@ -172,7 +200,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <title>48</title>
   <link>http://chathappens.com/fr/chats/48/</link>
   <guid>fr-chats-48</guid>
-  <pubDate>Fri, 14 Oct 2016 02:25:35 +0200</pubDate>
+  <pubDate>Fri, 14 Oct 2016 02:30:31 +0200</pubDate>
   <content:encoded>
     <![CDATA[
       <!doctype html>
@@ -187,7 +215,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
         </head>
         <body>
           <article>
-
             <header>
               <!— Article header goes here -->
               <figure>
@@ -208,27 +235,27 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/92.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/88.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/84.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/69.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/73.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/97.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/140.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/128.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/38.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/89.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/130.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/25.jpg" />
               </figure>
             
             <figure class="op-ad">
@@ -242,6 +269,21 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               <!-- Copyright details for your article -->
                 <small>© Chat Happens</small>
             </footer>
+            <figure class="op-tracker">
+              <iframe>
+                  <!-- Include full analytics code here -->
+                    <script>
+                		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                		  ga('create', 'UA-10230498-7', 'auto');
+                		  ga('send', 'pageview');
+
+          		      </script>
+              </iframe>
+            </figure>
           </article>
         </body>
        ]]>
@@ -252,7 +294,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <title>47</title>
   <link>http://chathappens.com/fr/chats/47/</link>
   <guid>fr-chats-47</guid>
-  <pubDate>Fri, 14 Oct 2016 02:25:35 +0200</pubDate>
+  <pubDate>Fri, 14 Oct 2016 02:30:31 +0200</pubDate>
   <content:encoded>
     <![CDATA[
       <!doctype html>
@@ -267,7 +309,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
         </head>
         <body>
           <article>
-
             <header>
               <!— Article header goes here -->
               <figure>
@@ -288,27 +329,27 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/102.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/70.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/105.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/107.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/62.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/125.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/36.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/13.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/69.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/110.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/29.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/92.jpg" />
               </figure>
             
             <figure class="op-ad">
@@ -322,6 +363,21 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               <!-- Copyright details for your article -->
                 <small>© Chat Happens</small>
             </footer>
+            <figure class="op-tracker">
+              <iframe>
+                  <!-- Include full analytics code here -->
+                    <script>
+                		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                		  ga('create', 'UA-10230498-7', 'auto');
+                		  ga('send', 'pageview');
+
+          		      </script>
+              </iframe>
+            </figure>
           </article>
         </body>
        ]]>
@@ -332,7 +388,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <title>46</title>
   <link>http://chathappens.com/fr/chats/46/</link>
   <guid>fr-chats-46</guid>
-  <pubDate>Fri, 14 Oct 2016 02:25:35 +0200</pubDate>
+  <pubDate>Fri, 14 Oct 2016 02:30:31 +0200</pubDate>
   <content:encoded>
     <![CDATA[
       <!doctype html>
@@ -347,7 +403,6 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
         </head>
         <body>
           <article>
-
             <header>
               <!— Article header goes here -->
               <figure>
@@ -368,27 +423,27 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/139.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/23.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/87.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/108.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/72.jpg" />
-              </figure>
-            
-              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/95.jpg" />
-              </figure>
-            
-              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/132.jpg" />
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/42.jpg" />
               </figure>
             
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                   <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/35.jpg" />
+              </figure>
+            
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/122.jpg" />
+              </figure>
+            
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                  <img src="http://res.cloudinary.com/gutenacht/image/upload/v1474487956/fr/screenshots/117.jpg" />
               </figure>
             
             <figure class="op-ad">
@@ -402,6 +457,21 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               <!-- Copyright details for your article -->
                 <small>© Chat Happens</small>
             </footer>
+            <figure class="op-tracker">
+              <iframe>
+                  <!-- Include full analytics code here -->
+                    <script>
+                		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                		  ga('create', 'UA-10230498-7', 'auto');
+                		  ga('send', 'pageview');
+
+          		      </script>
+              </iframe>
+            </figure>
           </article>
         </body>
        ]]>
