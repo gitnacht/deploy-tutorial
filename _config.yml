@@ -48,3 +48,7 @@ page_gen:
     template: 'chat-tr'
     name: 'screenshot'
     dir: 'tr/chats'
+  - data: 'chats-de'
+    template: 'chat-de'
+    name: 'screenshot'
+    dir: 'de/chats'  
