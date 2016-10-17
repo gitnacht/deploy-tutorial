@@ -1,6 +1,6 @@
 ---
 layout: null
-lang: fr
+lang: es
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
@@ -10,8 +10,8 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <link>{{ site.url }}</link>
   <description>{{ site.description | xml_escape }}</description>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-  {% assign chatcount = site.data.chats-fr | size | minus: 95 %}
-  {% for chat in site.data.chats-fr reversed limit:5 offset:chatcount %}
+  {% assign chatcount = site.data.chats-es | size | minus: 95 %}
+  {% for chat in site.data.chats-es reversed limit:5 offset:chatcount %}
   <item>
   <title>{{ chat.screenshot | xml_escape }}</title>
   <link>{{ site.url }}/{{ page.lang }}/chats/{{ chat.screenshot }}/</link>
@@ -49,7 +49,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
             </figure>
-            {% assign random = site.data.chats-fr | sample:6 %}
+            {% assign random = site.data.chats-es | sample:6 %}
             {% for chat in random  %}
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                   <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
