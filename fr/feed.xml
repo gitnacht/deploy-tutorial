@@ -56,7 +56,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               </figure>
             {% endfor %}
             <figure class="op-ad">
-              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=170487586729801_170528110059082&adtype=banner300x250"></iframe>
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=188010281639504_188010711639461&adtype=banner300x250"></iframe>
             </figure>
               <h1>If these chats cracked you up, share this article with your friends! </h1>
               <p>You can get more chats on our <a href="{{ site.url }}/{{ page.lang }}/?utm_source={{ page.lang }}&utm_medium=instantarticle&utm_campaign=facebook&utm_content={{ chat.screenshot }}">Website</a>.</p>
