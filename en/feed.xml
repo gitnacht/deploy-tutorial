@@ -10,8 +10,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <link>{{ site.url }}</link>
   <description>{{ site.description | xml_escape }}</description>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-  {% assign chatcount = site.data.chats-en | size | minus: 95 %}
-  {% for chat in site.data.chats-en reversed limit:5 offset:chatcount %}
+  {% for chat in site.data.chats-en reversed %}
   <item>
   <title>{{ chat.screenshot | xml_escape }}</title>
   <link>{{ site.url }}/{{ page.lang }}/chats/{{ chat.screenshot }}/</link>
@@ -66,6 +65,21 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               <!-- Copyright details for your article -->
                 <small>© Chat Happens</small>
             </footer>
+            <figure class="op-tracker">
+              <iframe>
+                  <!-- Include full analytics code here -->
+                  <script>
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                    ga('create', 'UA-10230498-6', 'auto');
+                    ga('send', 'pageview');
+
+                  </script>
+              </iframe>
+            </figure>
           </article>
         </body>
        ]]>
