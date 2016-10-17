@@ -73,7 +73,10 @@ body {
 }
 
 .partner-fb {
-  margin: 20px 30px;
+  margin-top: : 20px;
+  margin-bottom: : : 20px;
+  margin-left: auto;
+  margin-right: auto;
   text-align:center;
 }
 
