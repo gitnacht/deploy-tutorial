@@ -79,6 +79,10 @@ body {
   text-align:center;
 }
 
+.adnwMRectRoot {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 
 .load-more {
   margin: 50px 0 100px;
