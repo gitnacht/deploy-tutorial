@@ -10,6 +10,8 @@
           onAdLoaded: function(element) {
             console.log('Audience Network [1774129659470617_1774130662803850] ad loaded');
             element.style.display = 'block';
+            element.style.marginLeft = 'auto';
+            element.style.marginRight = 'auto';
           },
           onAdError: function(errorCode, errorMessage) {
             console.log('Audience Network [1774129659470617_1774130662803850] error (' + errorCode + ') ' + errorMessage);
