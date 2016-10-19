@@ -11,7 +11,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <description>{{ site.description | xml_escape }}</description>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
   {% assign chatcount = site.data.chats-tr | size | minus: 95 %}
-  {% for chat in site.data.chats-tr reversed limit:5 offset:chatcount %}
+  {% for chat in site.data.chats-tr reversed limit:7 offset:chatcount %}
   <item>
   <title>{{ chat.screenshot | xml_escape }}</title>
   <link>{{ site.url }}/{{ page.lang }}/chats/{{ chat.screenshot }}/</link>
