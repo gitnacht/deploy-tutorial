@@ -11,7 +11,7 @@ lang: cvgn
 
   {% assign count = page.screenshot | minus:3 %}
 
-  {% for chat in site.data.chats-de reversed limit:3 offset:chatcount %}
+  {% for chat in site.data.chats-cvgn reversed limit:3 offset:chatcount %}
   <!-- CHAT CONTAINER /w Image -->
     <div class="chat-container mb-small">
       <div class="chat-container-content">
@@ -27,7 +27,7 @@ lang: cvgn
 
   {% assign newcount = chatcount | minus:4 %}
 
-  {% for chat in site.data.chats-de reversed limit:4 offset:newcount %}
+  {% for chat in site.data.chats-cvgn reversed limit:4 offset:newcount %}
   <!-- CHAT CONTAINER /w Image -->
     <div class="chat-container mb-small">
       <div class="chat-container-content">
