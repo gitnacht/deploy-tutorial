@@ -23,7 +23,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
           <meta charset="utf-8">
           <link rel="canonical" href="{{ site.url }}/{{ page.lang }}/chats/{{ chat.screenshot }}">
           <meta property="op:markup_version" content="v1.0">
-          <title>Hier kommen unser Lieblingschats von heute</title>
+          <title>Hier kommen unsere Lieblingschats von heute</title>
           <meta property="fb:article_style" content="MVP">
           <link rel="stylesheet" title="MVP" href="#">
           <meta property="fb:use_automatic_ad_placement" content="false">
