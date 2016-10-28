@@ -101,9 +101,9 @@
 .chat-ios-imessage .message-container:after {
   content: '';
   clear: both;
-  position: relative; 
-  height: 1px; 
-  width: 100%; 
+  position: relative;
+  height: 1px;
+  width: 100%;
   display: block;
 }
 
@@ -220,7 +220,7 @@
   font-size: 13px;
   letter-spacing: 1px;
 }
- 
+
  .chat-ios-imessage .message-right .message-meta {
   text-align:right;
  }
@@ -476,9 +476,9 @@
 .chat-ios-whatsapp .message-container:after {
   content: '';
   clear: both;
-  position: relative; 
-  height: 1px; 
-  width: 100%; 
+  position: relative;
+  height: 1px;
+  width: 100%;
   display: block;
 }
 
@@ -563,7 +563,7 @@
   color: #aaa;
   font-size: 13px;
 }
- 
+
 .chat-ios-whatsapp .message-left .message-meta .time {
   position:absolute;
   right:7px;
@@ -770,9 +770,9 @@
 .chat-android-whatsapp .message-container:after {
   content: '';
   clear: both;
-  position: relative; 
-  height: 1px; 
-  width: 100%; 
+  position: relative;
+  height: 1px;
+  width: 100%;
   display: block;
 }
 
@@ -835,7 +835,7 @@
   color: #aaa;
   font-size: 13px;
 }
- 
+
 .chat-android-whatsapp .message-left .message-meta .time {
   position:absolute;
   right:7px;
