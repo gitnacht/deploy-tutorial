@@ -23,7 +23,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
           <meta charset="utf-8">
           <link rel="canonical" href="{{ site.url }}/{{ page.lang }}/chats/{{ chat.screenshot }}">
           <meta property="op:markup_version" content="v1.0">
-          <title>The 7 best chats of today</title>
+          <title>Voilà nos conversations préférées de la journée</title>
           <meta property="fb:article_style" content="MVP">
           <link rel="stylesheet" title="MVP" href="#">
           <meta property="fb:use_automatic_ad_placement" content="false">
@@ -38,30 +38,44 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               </figure>
               <!-- kicker -->
               <h3 class="op-kicker">
-                Today's funniest chats:
+                Les meilleures conversations de la journée:
               </h3>
               <!-- title -->
-              <h1>These 7 chats cracked us up!</h1>
+              <h1>7 chats qui nous ont fait rire!</h1>
             </header>
             <!— Article body goes here -->
-            <p>People from all over the world are sending funny chats to us. Everyday we choose 7 chats that will make you laugh.</p>
+            <p>Nous recevons des chats du monde entier! Nous te proposerons chaque jour nos 7 chats préférés qui te feront mourir de rire.</p>
             <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
             </figure>
-            {% assign random = site.data.chats-fr | sample:6 %}
-            {% for chat in random  %}
+
+            {% assign randommiddle = site.data.chats-fr | sample:3 %}
+            {% for chat in randommiddle  %}
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
-                  <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
+                <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
               </figure>
             {% endfor %}
+
+            <figure class="op-ad">
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=188010281639504_190702468036952&adtype=banner300x250"></iframe>
+            </figure>
+
+            {% assign randombottom = site.data.chats-fr | sample:5 %}
+            {% for chat in randombottom  %}
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
+              </figure>
+            {% endfor %}
+
             <figure class="op-ad">
               <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=188010281639504_188010711639461&adtype=banner300x250"></iframe>
             </figure>
-              <h1>If these chats cracked you up, share this article with your friends! </h1>
-              <p>You can get more chats on our <a href="{{ site.url }}/{{ page.lang }}/?utm_source={{ page.lang }}&utm_medium=instantarticle&utm_campaign=facebook&utm_content={{ chat.screenshot }}">Website</a>.</p>
+
+              <h1>N'oublie pas de partager à tes potes si tu as ris !</h1>
+              <p>Pour plus de chats, visite notre <a href="{{ site.url }}/{{ page.lang }}/?utm_source={{ page.lang }}&utm_medium=instantarticle&utm_campaign=facebook&utm_content={{ chat.screenshot }}">site</a>.</p>
             <footer>
               <!— Article footer goes here -->
-              <p>Hey, don´t forget to send us your craziest, funniest chats.</p>
+              <p>Hey, n'oublie pas de nous envoyer tes chats les plus fous et les plus drôles!</p>
               <!-- Copyright details for your article -->
                 <small>© Chat Happens</small>
             </footer>
