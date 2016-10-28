@@ -58,7 +58,14 @@ layout: list-de
         <button class="btn btn-lg btn-primary"><span class="emoji emoji-laughing"></span>Load more chats</button>
       </a>
     </div>
-  {% endif %}
+    {% else %}
+    {% assign nextpage = site.data.chats-de | size %}
+      <div class="load-more">
+        <a href="{{ site.baseurl }}/{{ page.lang }}/chats/{{ nextpage }}">
+          <button class="btn btn-lg btn-primary"><span class="emoji emoji-laughing"></span>Load more chats</button>
+        </a>
+      </div>
+    {% endif %}
 
   <div class="fixed-read-more">
     <span>more chats</span>
