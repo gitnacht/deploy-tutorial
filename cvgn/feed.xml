@@ -49,15 +49,19 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
             </figure>
 
-            {% assign count = chat.screenshot | minus:3 %}
-            {% for chat in site.data.chats-cvgn reversed limit:2 offset:count %}
+            {% assign randommiddle = site.data.chats-cvgn | sample:3 %}
+            {% for chat in randommiddle  %}
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
               </figure>
             {% endfor %}
 
-            {% assign newcount = count | minus:4 %}
-            {% for chat in site.data.chats-cvgn reversed limit:4 offset:newcount %}
+            <figure class="op-ad">
+              <iframe width="320" height="50" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1853899038230012_1853906901562559&adtype=banner320x50"></iframe>
+            </figure>
+
+            {% assign randombottom = site.data.chats-cvgn | sample:5 %}
+            {% for chat in randombottom  %}
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
               </figure>
