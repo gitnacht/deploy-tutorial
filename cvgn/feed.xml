@@ -57,7 +57,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             {% endfor %}
 
             <figure class="op-ad">
-              <iframe width="320" height="50" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1853899038230012_1853906901562559&adtype=banner320x50"></iframe>
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1853899038230012_1853906901562559&adtype=banner300x250"></iframe>
             </figure>
 
             {% assign randombottom = site.data.chats-cvgn | sample:5 %}
