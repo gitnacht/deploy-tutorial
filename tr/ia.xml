@@ -1,6 +1,6 @@
 ---
 layout: null
-lang: po
+lang: tr
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
@@ -10,7 +10,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <link>{{ site.url }}</link>
   <description>{{ site.description | xml_escape }}</description>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-  {% for chat in site.data.chats-po reversed %}
+  {% for chat in site.data.chats-tr reversed %}
   <item>
   <title>{{ chat.screenshot | xml_escape }}</title>
   <link>{{ site.url }}/{{ page.lang }}/chats/{{ chat.screenshot }}/</link>
@@ -48,15 +48,29 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
             </figure>
-            {% assign count = chat.screenshot | minus:7 %}
-            {% for chat in site.data.chats-po reversed limit:6 offset:count %}
+
+            {% assign randommiddle = site.data.chats-tr | sample:3 %}
+            {% for chat in randommiddle  %}
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
               </figure>
             {% endfor %}
+
             <figure class="op-ad">
-              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1145269188891129_1145269318891116&adtype=banner300x250"></iframe>
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=353959771604564_360051520995389&adtype=banner300x250"></iframe>
             </figure>
+
+            {% assign randombottom = site.data.chats-tr | sample:5 %}
+            {% for chat in randombottom  %}
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
+              </figure>
+            {% endfor %}
+
+            <figure class="op-ad">
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=353959771604564_353959864937888&adtype=banner300x250"></iframe>
+            </figure>
+
               <h1>If these chats cracked you up, share this article with your friends! </h1>
               <p>You can get more chats on our <a href="{{ site.url }}/{{ page.lang }}/?utm_source={{ page.lang }}&utm_medium=instantarticle&utm_campaign=facebook&utm_content={{ chat.screenshot }}">Website</a>.</p>
             <footer>

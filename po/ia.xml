@@ -1,6 +1,6 @@
 ---
 layout: null
-lang: es
+lang: po
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
@@ -10,7 +10,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <link>{{ site.url }}</link>
   <description>{{ site.description | xml_escape }}</description>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-  {% for chat in site.data.chats-es reversed %}
+  {% for chat in site.data.chats-po reversed %}
   <item>
   <title>{{ chat.screenshot | xml_escape }}</title>
   <link>{{ site.url }}/{{ page.lang }}/chats/{{ chat.screenshot }}/</link>
@@ -23,7 +23,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
           <meta charset="utf-8">
           <link rel="canonical" href="{{ site.url }}/{{ page.lang }}/chats/{{ chat.screenshot }}">
           <meta property="op:markup_version" content="v1.0">
-          <title>The 7 best chats of today</title>
+          <title>As 7 melhores conversas do dia</title>
           <meta property="fb:article_style" content="MVP">
           <link rel="stylesheet" title="MVP" href="#">
           <meta property="fb:use_automatic_ad_placement" content="false">
@@ -38,33 +38,44 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               </figure>
               <!-- kicker -->
               <h3 class="op-kicker">
-                Today's funniest chats:
+                As melhores conversas de hoje:
               </h3>
               <!-- title -->
-              <h1>These 7 chats cracked us up!</h1>
+              <h1>7 conversas que nos fizeram rachar de rir</h1>
             </header>
             <!— Article body goes here -->
-            <p>People from all over the world are sending funny chats to us. Everyday we choose 7 chats that will make you laugh.</p>
+            <p>Tamo recebendo conversas engraçadas do mundo inteiro. Todo dia, fazemos uma seleção das 7 mais engraçadas pra fazer vc morrer de rir!</p>
             <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
             </figure>
 
-            {% assign count = chat.screenshot | minus:7 %}
-            {% for chat in site.data.chats-es reversed limit:6 offset:count %}
+            {% assign randommiddle = site.data.chats-po | sample:3 %}
+            {% for chat in randommiddle  %}
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
               </figure>
             {% endfor %}
 
+            <figure class="op-ad">
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1145269188891129_1159667640784617&adtype=banner300x250"></iframe>
+            </figure>
+
+            {% assign randombottom = site.data.chats-cvgn | sample:5 %}
+            {% for chat in randombottom  %}
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
+              </figure>
+            {% endfor %}
 
             <figure class="op-ad">
-              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=577079949157116_577080322490412&adtype=banner300x250"></iframe>
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1145269188891129_1145269318891116&adtype=banner300x250"></iframe>
             </figure>
-              <h1>If these chats cracked you up, share this article with your friends! </h1>
-              <p>You can get more chats on our <a href="{{ site.url }}/{{ page.lang }}/?utm_source={{ page.lang }}&utm_medium=instantarticle&utm_campaign=facebook&utm_content={{ chat.screenshot }}">Website</a>.</p>
+
+              <h1>Achou engraçado?! Compartilha com seus amigos então!</h1>
+              <p>Tem mais conversas pra te fazer rir no nosso <a href="{{ site.url }}/{{ page.lang }}/?utm_source={{ page.lang }}&utm_medium=instantarticle&utm_campaign=facebook&utm_content={{ chat.screenshot }}">site</a>, dá uma olhada lá!</p>
             <footer>
               <!— Article footer goes here -->
-              <p>Hey, don´t forget to send us your craziest, funniest chats.</p>
+              <p>Ei, vê se não esquece de mandar suas conversas engraçadas pra gente hein!</p>
               <!-- Copyright details for your article -->
                 <small>© Chat Happens</small>
             </footer>
