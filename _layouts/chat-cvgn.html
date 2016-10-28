@@ -58,6 +58,13 @@ layout: list-cvgn
         <button class="btn btn-lg btn-primary"><span class="emoji emoji-laughing"></span>Load more chats</button>
       </a>
     </div>
+  {% else %}
+  {% assign nextpage = site.data.chats-cvgn | size %}
+    <div class="load-more">
+      <a href="{{ site.baseurl }}/{{ page.lang }}/chats/{{ nextpage }}">
+        <button class="btn btn-lg btn-primary"><span class="emoji emoji-laughing"></span>Load more chats</button>
+      </a>
+    </div>
   {% endif %}
 
   <div class="fixed-read-more">
