@@ -10,7 +10,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <link>{{ site.url }}</link>
   <description>{{ site.description | xml_escape }}</description>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-  {% for chat in site.data.chats-de reversed %}
+  {% for chat in site.data.chats-de reversed  %}
   <item>
   <title>{{ chat.screenshot | xml_escape }}</title>
   <link>{{ site.url }}/{{ page.lang }}/chats/{{ chat.screenshot }}/</link>
@@ -48,15 +48,29 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
             <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
             </figure>
-            {% assign count = chat.screenshot | minus:7 %}
-            {% for chat in site.data.chats-de reversed limit:6 offset:count %}
+
+            {% assign randommiddle = site.data.chats-de | sample:3 %}
+            {% for chat in randommiddle  %}
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
               </figure>
             {% endfor %}
+
+            <figure class="op-ad">
+              <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=914227462016063_923385551100254&adtype=banner300x250"></iframe>
+            </figure>
+
+            {% assign randombottom = site.data.chats-de | sample:5 %}
+            {% for chat in randombottom  %}
+              <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
+                <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
+              </figure>
+            {% endfor %}
+
             <figure class="op-ad">
               <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=914227462016063_914227578682718&adtype=banner300x250"></iframe>
             </figure>
+
               <h1>Wenn Du diese Chats lustig fandest, teile diesen Artikel mit Deinen Freunden!</h1>
               <p>Auf unserer <a href="{{ site.url }}/{{ page.lang }}/?utm_source={{ page.lang }}&utm_medium=instantarticle&utm_campaign=facebook&utm_content={{ chat.screenshot }}">Website</a> bekommst du mehr Chats.</p>
             <footer>
