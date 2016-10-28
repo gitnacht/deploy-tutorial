@@ -60,7 +60,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=1145269188891129_1159667640784617&adtype=banner300x250"></iframe>
             </figure>
 
-            {% assign randombottom = site.data.chats-cvgn | sample:5 %}
+            {% assign randombottom = site.data.chats-po | sample:5 %}
             {% for chat in randombottom  %}
               <figure data-feedback="fb:likes, fb:comments" data-mode="non-interactive">
                 <img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg" />
