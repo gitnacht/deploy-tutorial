@@ -79,12 +79,12 @@ body {
   text-align:center;
 }
 
-.inbox {
+.send-your-chat {
+  text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto !important;
   margin-right: auto !important;
-  text-align:center;
 }
 
 
