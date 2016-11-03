@@ -79,6 +79,15 @@ body {
   text-align:center;
 }
 
+.inbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align:center;
+}
+
+
 .adnwMRectRoot {
   margin-left: auto !important;
   margin-right: auto !important;
