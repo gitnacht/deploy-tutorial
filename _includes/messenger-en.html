@@ -1,27 +1,3 @@
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId: "182222305144028",
-      xfbml: true,
-      version: "v2.6"
-    });
-  };
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) { return; }
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
-<!--
-  `messenger_app_id` = leave this as-is, this is Motion AI's Facebook App ID.
-  `page_id` = Your Facebook Page ID (retrieved from Bot Settings)
-  `data-ref` = Your desired starting module ID (the message to send the user by default when they click the Send to Messenger button)
-
-  Edit the attributes below to match your requirements
--->
 <div class="send-your-chat">
     <p>Do you want to send us your craziest, funniest chat? You can send us a screenshot via Facebook Messenger.</p>
     <div class="fb-send-to-messenger"
@@ -31,5 +7,4 @@
       color="blue"
       size="xlarge">
     </div>
-
 </div>
