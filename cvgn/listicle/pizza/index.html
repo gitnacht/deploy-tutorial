@@ -72,38 +72,55 @@ screenshot: 197
             </div>
           <!-- /CHAT CONTAINER /w Image -->
 
-          {% assign chatcount = site.data.chats-de | size | minus: 3 %}
-
-          {% assign count = page.screenshot | minus:3 %}
-
-          {% for chat in site.data.chats-cvgn reversed limit:3 offset:chatcount %}
           <!-- CHAT CONTAINER /w Image -->
             <div class="chat-container mb-small">
               <div class="chat-container-content">
                 <div class="chat-container-image">
-                  <span><img src="{{ site.cloudinarybaseurl }}/{{ chat.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg"></span>
+                  <span><img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/198.jpg"></span>
                 </div>
               </div>
             </div>
           <!-- /CHAT CONTAINER /w Image -->
-          {% endfor %}
 
-
-          {% assign newcount = chatcount | minus:4 %}
-
-          {% for chat in site.data.chats-cvgn reversed limit:4 offset:newcount %}
           <!-- CHAT CONTAINER /w Image -->
             <div class="chat-container mb-small">
               <div class="chat-container-content">
                 <div class="chat-container-image">
-                  <span><img src="{{ site.cloudinarybaseurl }}/{{ chat.lang }}/screenshots/{{ chat.screenshot | xml_escape }}.jpg"></span>
+                  <span><img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/199.jpg"></span>
                 </div>
               </div>
             </div>
           <!-- /CHAT CONTAINER /w Image -->
-          {% endfor %}
 
-          {% assign nextpage = chatcount | minus:4 %}
+          <!-- CHAT CONTAINER /w Image -->
+            <div class="chat-container mb-small">
+              <div class="chat-container-content">
+                <div class="chat-container-image">
+                  <span><img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/200.jpg"></span>
+                </div>
+              </div>
+            </div>
+          <!-- /CHAT CONTAINER /w Image -->
+
+          <!-- CHAT CONTAINER /w Image -->
+            <div class="chat-container mb-small">
+              <div class="chat-container-content">
+                <div class="chat-container-image">
+                  <span><img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/201.jpg"></span>
+                </div>
+              </div>
+            </div>
+          <!-- /CHAT CONTAINER /w Image -->
+
+          <!-- CHAT CONTAINER /w Image -->
+            <div class="chat-container mb-small">
+              <div class="chat-container-content">
+                <div class="chat-container-image">
+                  <span><img src="{{ site.cloudinarybaseurl }}/{{ page.lang }}/screenshots/202.jpg"></span>
+                </div>
+              </div>
+            </div>
+          <!-- /CHAT CONTAINER /w Image -->
 
 
           <div class="fixed-read-more">
