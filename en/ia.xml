@@ -67,8 +67,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
               </figure>
             {% endfor %}
 
-            <p style="text-align: center; margin-left: auto !important; margin.right: auto !important;"><a href=""><img src="http://res.cloudinary.com/gutenacht/image/upload/v1480081130/en/static/instabutton.png" alt="Follow us on Instagram"></a></p>
-          
+            <figure data-mode="non-interactive">
+            <a style="text-align: center; margin-left: auto !important; margin.right: auto !important;" href="https://www.instagram.com/chathappensofficial/"><img src="http://res.cloudinary.com/gutenacht/image/upload/v1480081130/en/static/instabutton.png" alt="Follow us on Instagram"></a>
+            </figure>
 
             <figure class="op-ad">
               <iframe width="300" height="250" style="border:0; margin:0;" src="https://www.facebook.com/adnw_request?placement=170487586729801_170487616729798&adtype=banner300x250"></iframe>
